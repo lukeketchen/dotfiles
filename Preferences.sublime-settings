@@ -1,0 +1,26 @@
+{
+	"color_scheme": "Night Owl.sublime-color-scheme",
+	"ignored_packages":
+	[
+	],
+	"font_size": 16,
+	// "font_face": "Fira Code",
+	"font_face": "Menlo",
+	"relative_line_numbers": true,
+	"hot_exit": "disabled",
+	"remember_layout": true,
+	"vintage_start_in_command_mode": true,
+	"vintage_use_clipboard": true,
+	// "auto_complete_selector": "text, meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+	"auto_complete_triggers":
+	[
+		{
+			"selector": "text.html, text.xml, text.php", 
+			"characters": "<",
+		},
+		{
+			"selector": "punctuation.accessor", 
+			"rhs_empty": true,
+		},
+	],
+}
