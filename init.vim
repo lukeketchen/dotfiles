@@ -1,17 +1,25 @@
-"                                    ________
-"                                  |\\#######\
-"                                  |#\\#######\
-"                                  |##\\#######\
-"                                  |###\\#######\
-"                                  #####\\#######\
-"                         _______,#######|\#######\
-"                         \W############W  \#######\
-"                          \W##########W    \#######\
-"                           '#########'      \#######\
-"                              ¯¯¯¯¯          ¯¯¯¯¯¯¯¯
+"                                        o
+"                                      o   o
+"                                    o       o
+"                                  o           o
+"                                o               o
+"                              o     ||   //       o
+"                            o       ||  //          o
+"                          o         || //             o
+"                        o           ||//               o
+"                          o         ||\\              o
+"                            o       || \\           o
+"                              o     ||  \\        o
+"                                o   ||   \\     o
+"                                  o           o
+"                                    o       o
+"                                      o   o
+"                                        o
 "
-"       Personal vim configuration of Jess Archer <jess@jessarcher.com>
-
+"
+"
+"       Personal neo vim configuration of Luke Ketchen <luke@gmail.com.com>
+"
 "--------------------------------------------------------------------------
 " General settings
 "--------------------------------------------------------------------------
@@ -29,7 +37,7 @@ set spell
 set title
 set ignorecase
 set smartcase
-set wildode=longest:full,full
+" set wildode=longest:full,full
 set nowrap
 set list
 set listchars=tab:▸\ ,trail:·
@@ -50,7 +58,7 @@ set redrawtime=10000 " Allow more time for loading syntax on large files
 " Key maps
 "--------------------------------------------------------------------------
 
-let mapleader = "\<space>"
+let mapleader = "\<Space>"
 
 nmap <leader>ve :edit ~/.config/nvim/init.vim<cr>
 nmap <leader>vc :edit ~/.config/nvim/coc-settings.json<cr>
@@ -111,7 +119,7 @@ endif
 
 call plug#begin(data_dir . '/plugins')
 
-source ~/.config/nvim/plugins/abolish.vim
+" source ~/.config/nvim/plugins/abolish.vim
 source ~/.config/nvim/plugins/airline.vim
 source ~/.config/nvim/plugins/arduino.vim
 source ~/.config/nvim/plugins/coc.vim
@@ -144,7 +152,7 @@ source ~/.config/nvim/plugins/splitjoin.vim
 source ~/.config/nvim/plugins/surround.vim
 source ~/.config/nvim/plugins/targets.vim
 source ~/.config/nvim/plugins/textobj-xmlattr.vim
-source ~/.config/nvim/plugins/tmux-navigator.vim
+" source ~/.config/nvim/plugins/tmux-navigator.vim
 source ~/.config/nvim/plugins/unimpaired.vim
 source ~/.config/nvim/plugins/vim-test.vim
 source ~/.config/nvim/plugins/visual-multi.vim
