@@ -108,9 +108,13 @@ source ~/dotfiles/.bash_aliases
 
 export PATH="$HOME/.composer/vendor/bin:$PATH" 
 export PATH="$HOME/.scripts:$PATH" 
+export PATH="$HOME/.scripts:$PATH" 
+export PATH="$HOME/.pyenv/shims:$PATH" 
 
-#
+export PYENV_ROOT="$HOME/.pyenv"
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 DEFAULT_USER="lukeketchen"
+eval "$(pyenv init -)"
