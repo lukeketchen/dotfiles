@@ -55,7 +55,7 @@ let g:dashboard_custom_header =<< trim END
  `''                                                                      ``'
 END
 
-g:dashboard_custom_footer = [
+let g:dashboard_custom_footer = [
 \ ' ███╗   ██╗ ███████╗ ██████╗  ██╗   ██╗ ██╗ ███╗   ███╗',
 \ ' ████╗  ██║ ██╔════╝██╔═══██╗ ██║   ██║ ██║ ████╗ ████║',
 \ ' ██╔██╗ ██║ █████╗  ██║   ██║ ██║   ██║ ██║ ██╔████╔██║',
