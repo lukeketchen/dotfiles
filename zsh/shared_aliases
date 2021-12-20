@@ -1,0 +1,6 @@
+#!/bin/bash
+
+alias sites="cd ~/Sites/"
+alias dot="cd ~/.dotfiles/"
+
+
