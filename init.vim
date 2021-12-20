@@ -99,6 +99,7 @@ nmap <leader>x :!xdg-open %<cr><cr>
 
 " Quicky escape to normal mode
 imap jj <esc>
+imap ww <esc>:w<esc>
 
 " Easy insertion of a trailing ; or , from insert mode
 imap ;; <Esc>A;<Esc>
