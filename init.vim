@@ -123,7 +123,7 @@ call plug#begin(data_dir . '/plugins')
 " source ~/.dotfiles/nvim/plugins/abolish.vim
 source ~/.dotfiles/nvim/plugins/airline.vim
 source ~/.dotfiles/nvim/plugins/arduino.vim
-" source ~/.dotfiles/nvim/plugins/coc.vim
+source ~/.dotfiles/nvim/plugins/coc.vim
 source ~/.dotfiles/nvim/plugins/commentary.vim
 source ~/.dotfiles/nvim/plugins/context-commentstring.vim
 source ~/.dotfiles/nvim/plugins/dispatch.vim
