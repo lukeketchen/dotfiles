@@ -111,6 +111,8 @@ NVM_HOMEBREW="/usr/local/opt/nvm/nvm.sh"
 source ~/dotfiles/.bash_functions
 source ~/dotfiles/.bash_aliases
 
+source ~/.dotfiles/zsh/bash_functions
+source ~/.dotfiles/zsh/bash_aliases
 
 export PATH="$HOME/.composer/vendor/bin:$PATH" 
 export PATH="$HOME/.scripts:$PATH" 
