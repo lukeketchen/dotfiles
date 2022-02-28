@@ -1,0 +1,20 @@
+#!/bin/bash
+
+func work() {
+    cd ~/Pictures/screenshots
+    rm *.png
+    pull_loop
+    cd ~/Sites/
+
+}
+
+func pull_loop() {
+    for dir in ~/Sites/*
+    do
+        dir=${dir%*/}
+        cd ~/Sites/${dir##*/}
+        git pull
+        echo "${dir##*/}"
+    done
+
+}

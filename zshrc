@@ -94,13 +94,13 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # run this on the macbook air
-#export NVM_DIR="$HOME/.nvm"
-#[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-#[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
 export NVM_DIR="$HOME/.nvm"
-NVM_HOMEBREW="/usr/local/opt/nvm/nvm.sh"
-[ -s "$NVM_HOMEBREW" ] && \. "$NVM_HOMEBREW"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+# export NVM_DIR="$HOME/.nvm"
+# NVM_HOMEBREW="/usr/local/opt/nvm/nvm.sh"
+# [ -s "$NVM_HOMEBREW" ] && \. "$NVM_HOMEBREW"
 
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
@@ -114,15 +114,15 @@ source ~/dotfiles/.bash_aliases
 source ~/.dotfiles/zsh/bash_functions
 source ~/.dotfiles/zsh/bash_aliases
 
-export PATH="$HOME/.composer/vendor/bin:$PATH" 
-export PATH="$HOME/.scripts:$PATH" 
-export PATH="$HOME/.scripts:$PATH" 
-export PATH="$HOME/.pyenv/shims:$PATH" 
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="$HOME/.scripts:$PATH"
+export PATH="$HOME/.scripts:$PATH"
+export PATH="$HOME/.pyenv/shims:$PATH"
 
 export PYENV_ROOT="$HOME/.pyenv"
 
 
-alias vim="nvim" 
+alias vim="nvim"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"

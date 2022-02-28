@@ -99,6 +99,7 @@ nmap <leader>x :!xdg-open %<cr><cr>
 
 " Quicky escape to normal mode
 imap jj <esc>
+imap ww <esc>:w<esc>
 
 " Quicky escape to normal mode and save
 imap ww <esc>:w<Esc>
@@ -125,7 +126,7 @@ call plug#begin(data_dir . '/plugins')
 " source ~/.dotfiles/nvim/plugins/abolish.vim
 source ~/.dotfiles/nvim/plugins/airline.vim
 source ~/.dotfiles/nvim/plugins/arduino.vim
-" source ~/.dotfiles/nvim/plugins/coc.vim
+source ~/.dotfiles/nvim/plugins/coc.vim
 source ~/.dotfiles/nvim/plugins/commentary.vim
 source ~/.dotfiles/nvim/plugins/context-commentstring.vim
 source ~/.dotfiles/nvim/plugins/dispatch.vim
