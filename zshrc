@@ -1,7 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-eval $(/opt/homebrew/bin/brew shellenv)
+eval $(/usr/local/bin/brew shellenv)
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/lukeketchen/.oh-my-zsh"
@@ -94,13 +94,13 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # run this on the macbook air
-export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
 # export NVM_DIR="$HOME/.nvm"
-# NVM_HOMEBREW="/usr/local/opt/nvm/nvm.sh"
-# [ -s "$NVM_HOMEBREW" ] && \. "$NVM_HOMEBREW"
+# [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+# [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+export NVM_DIR="$HOME/.nvm"
+NVM_HOMEBREW="/usr/local/opt/nvm/nvm.sh"
+[ -s "$NVM_HOMEBREW" ] && \. "$NVM_HOMEBREW"
 
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
@@ -129,3 +129,4 @@ alias vim="nvim"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 DEFAULT_USER="lukeketchen"
 eval "$(pyenv init -)"
+export PATH="/usr/local/sbin:$PATH"
