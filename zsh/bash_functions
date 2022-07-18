@@ -1,0 +1,7 @@
+#!/bin/bash
+
+func pubkey() {
+    # cat ~/.ssh/id_rsa.pub | xclip
+    # DISPLAY=:0 xclip -sel clip < ~/.ssh/id_rsa.pub
+    # xclip -sel clip < ~/.ssh/id_rsa.pub
+}

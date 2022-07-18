@@ -166,6 +166,7 @@ source ~/.dotfiles/nvim/plugins/visual-star-search.vim
 source ~/.dotfiles/nvim/plugins/which-key.vim
 source ~/.dotfiles/nvim/plugins/transparent.vim
 source ~/.dotfiles/nvim/plugins/dashboard.vim
+source ~/.dotfiles/nvim/plugins/rust.vim
 call plug#end()
 doautocmd User PlugLoaded
 

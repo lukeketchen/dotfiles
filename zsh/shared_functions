@@ -18,3 +18,10 @@ func pull_loop() {
     done
 
 }
+
+func pubkey() {
+    cd ~/.ssc
+    cat id_rsa.pub
+}
+
+
