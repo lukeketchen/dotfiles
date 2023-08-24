@@ -1,2 +1,15 @@
-alias sites='cd ~/Sites'
-alias ketch='cd ~/KetchLabs'
+alias sites='cd ~/Sites; ls -la'
+alias ketch='cd ~/KetchLabs; ls -la'
+alias train='cd ~/Training; ls -la'
+
+alias trade='cd ~/Valet/tradiefiles'
+alias traderun='cd ~/Valet/tradiefiles; npm run dev'
+
+alias art='php artisan'
+alias artmf='php artisan migrate:fresh --seed'
+
+# npm aliases
+alias ni='npm i'
+alias n='npm'
+alias nr='npm run'
+alias nrd='npm run dev'
