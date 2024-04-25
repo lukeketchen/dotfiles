@@ -30,3 +30,30 @@ func pubkey() {
     cat id_rsa.pub
 }
 
+func gstart() {
+    echo '---'
+    echo '\n'
+    echo 'art optimize:clear'
+    echo '\n'
+    php artisan optimize:clear
+    echo '---'
+    echo '\n'
+    echo 'composer dump-autoload'
+    echo '\n'
+    composer dump-autoload
+    echo '---'
+    echo '\n'
+    echo 'npm install'
+    echo '\n'
+    npm install
+    echo '---'
+    echo '\n'
+    echo 'composer install'
+    echo '\n'
+    composer install
+    echo '---'
+    echo '\n'
+    echo 'artmf'
+    echo '\n'
+    php artisan migrate:fresh --seed
+}
